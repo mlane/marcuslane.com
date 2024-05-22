@@ -4,7 +4,7 @@ Welcome to my Portfolio Showcase Game! As a frontend developer, I wanted to pres
 
 ## Live Demo
 
-Play the game online at [marcuslane.com](https://marcuslane.com).
+Play the game online at [marcuslane.com](http://marcuslane.com).
 
 ## Technologies Used
 
