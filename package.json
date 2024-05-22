@@ -1,39 +1,25 @@
 {
-	"name": "marcuslane.com",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "vite dev --port 3000",
-		"build": "vite build",
-		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"test": "vitest",
-		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
-	},
-	"devDependencies": {
-		"@fontsource/press-start-2p": "^5.0.19",
-		"@neoconfetti/svelte": "^1.0.0",
-		"@sveltejs/adapter-auto": "^3.0.0",
-		"@sveltejs/kit": "^2.0.0",
-		"@sveltejs/vite-plugin-svelte": "^3.0.0",
-		"@types/eslint": "^8.56.0",
-		"@typescript-eslint/eslint-plugin": "^7.0.0",
-		"@typescript-eslint/parser": "^7.0.0",
-		"eslint": "^8.56.0",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-svelte": "^2.35.1",
-		"prettier": "^3.1.1",
-		"prettier-plugin-svelte": "^3.1.2",
-		"svelte": "^4.2.7",
-		"svelte-check": "^3.6.0",
-		"tslib": "^2.4.1",
-		"typescript": "^5.0.0",
-		"vite": "^5.0.3",
-		"vitest": "^1.2.0"
-	},
-	"type": "module",
-	"dependencies": {
-		"kaboom": "^3000.1.17"
-	}
+  "author": "mlane",
+  "dependencies": {
+    "@vercel/node": "^1.15.4",
+    "kaboom": "^3000.1.17",
+    "typescript": "4.8.4",
+    "vite": "^2.9.9"
+  },
+  "description": "Experience my Portfolio Showcase Game, a dynamic fusion of frontend development and gaming, showcasing my skills and projects in an interactive adventure. Utilizing Svelte, JavaScript, CSS, HTML, and Kaboom.js, navigate through levels to explore different aspects of my portfolio and enjoy a fresh take on resume presentation.",
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "prettier": "3.2.4",
+    "vercel": "^28.4.0"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "name": "marcuslane.com",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "deploy": "vite build && vercel --prod"
+  },
+  "version": "1.0.0"
 }

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>marcuslane.com</title>
+    <meta
+      name="description"
+      content="Experience my Portfolio Showcase Game, a dynamic fusion of frontend development and gaming, showcasing my skills and projects in an interactive adventure. Utilizing Svelte, JavaScript, CSS, HTML, and Kaboom.js, navigate through levels to explore different aspects of my portfolio and enjoy a fresh take on resume presentation."
+    />
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <main>
+      <div id="ui">
+        <p class="note">Tap/Click around to move</p>
+        <div id="textbox-container" style="display: none">
+          <div id="textbox">
+            <p id="dialogue" class="ui-text"></p>
+            <div class="button-container">
+              <button id="close" type="button">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <canvas id="game"></canvas>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
