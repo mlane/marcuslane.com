@@ -8,7 +8,7 @@ Explore immersive levels that represent different aspects of my portfolio—from
 
 ## 🌟 Live Demo
 
-Try the game online: [marcuslane.com](http://marcuslane.com)
+Try the game online: [marcuslane.com](https://marcuslane.com)
 
 ---
 
