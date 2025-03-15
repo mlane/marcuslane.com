@@ -17,8 +17,34 @@
   color: var(--color-text);
 }
 
+html #webgl-warning {
+  display: none;
+}
+
+html.no-webgl {
+  height: 100%;
+}
+
+html.no-webgl #ui {
+  display: none;
+}
+
+html.no-webgl #webgl-warning {
+  color: var(--color-bg-3);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+html,
 body {
   background-color: var(--color-bg-2);
+}
+
+body {
   height: 100%;
   margin: 0;
   position: relative;

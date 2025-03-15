@@ -8,10 +8,16 @@
       name="description"
       content="Experience my Portfolio Showcase Game, a dynamic fusion of frontend development and gaming, showcasing my skills and projects in an interactive adventure. Utilizing Svelte, JavaScript, CSS, HTML, and Kaboom.js, navigate through levels to explore different aspects of my portfolio and enjoy a fresh take on resume presentation."
     />
-    <link rel="stylesheet" href="/main.css" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
     <main>
+      <div id="webgl-warning">
+        <h2>⚠️ WebGL is Disabled</h2>
+        <p>Your browser has WebGL disabled or does not support it.</p>
+        <p>Please enable hardware acceleration in your browser settings.</p>
+      </div>
       <div id="ui">
         <p class="note">Tap/Click around to move</p>
         <div id="textbox-container" style="display: none">
@@ -23,8 +29,7 @@
           </div>
         </div>
       </div>
-      <canvas id="game"></canvas>
     </main>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
